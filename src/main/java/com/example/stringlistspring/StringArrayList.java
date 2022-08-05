@@ -10,6 +10,10 @@ public class StringArrayList implements StringList {
         storage = new String[amount];
         size = 0;
     }
+    public StringArrayList(String [] stringMas) {
+        storage = stringMas;
+        size = stringMas.length;
+    }
 
 
     @Override
